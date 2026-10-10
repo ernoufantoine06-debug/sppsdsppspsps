@@ -1,7 +1,7 @@
 {
   "n_bars": 42540,
   "raw_valid_first_half": 21268,
-  "tested_thresholds": 828,
+  "tested_thresholds": 1546,
   "strategies_validated": 0,
   "best_by_condition": {
     "LT": [
@@ -272,19 +272,24 @@
       }
     ]
   },
-  "results_path": "/workspace/work/deliverables/RÉSULTATS INDICATEURS.xlsx",
-  "reject_path": "/workspace/work/deliverables/historique_rejets_ALMA-1.csv",
+  "results_path": "ChatGPT Page privée: https://chatgpt.com/space/page_fc40962fd8888191a6a4ab4c086f09c1",
+  "reject_path": "GitHub: forex-eurusd-alma1-backtest/historique_rejets_ALMA-1.csv",
   "date_recherche": "2026-10-10",
   "instrument": "EUR/USD",
   "timeframe": "2 h",
   "indicator": "ALMA-1",
   "source_period": "24/01/2013–30/09/2026",
   "entry_signal": "moyenne ALMA-1 des lignes n, n-1 et n-2, à l’ouverture de n",
-  "percentiles": "percentiles calculés sur les valeurs brutes ALMA-1 valides de la première moitié des bougies; balayage Q10–Q90 par déciles puis affinage local à 1 point de percentile",
+  "percentiles": "percentiles calculés sur les valeurs brutes ALMA-1 valides de la première moitié; balayage par déciles, affinage local à 1 point, puis balayage complémentaire au pas de 1 point limité dans le temps",
   "exit_variants_per_signal_rule": 224,
   "validation_blocks": "40% initial, puis trois blocs de 20%; minima indépendants 200 puis 70 par bloc; 1000 sur l’ensemble",
   "cost_assumption": "spread 0.8 pip + commission 7 USD/lot appliqués une fois par trade; la commission est traitée comme un coût total aller-retour par lot",
   "drawdown_method": "drawdown mesuré sur les soldes après clôture des trades",
   "dataset_handling": "42540 lignes OHLC complètes utilisées; ligne finale d’indicateur sans OHLC ignorée",
-  "notes": "Aucun seuil validé. Le fichier historique séparé décrit les 828 seuils distincts et le meilleur résultat des 224 variantes direction/sortie pour chaque seuil."
+  "notes": "Aucun seuil validé. Le fichier historique séparé décrit 1546 règles de seuil distinctes testées parmi 5049 règles possibles sur le maillage Q1–Q99, avec la meilleure configuration direction/sortie testée pour chacune. 3503 règles du maillage restent non testées.",
+  "threshold_rules_total_grid": 5049,
+  "threshold_rules_tested": 1546,
+  "threshold_rules_remaining": 3503,
+  "search_continuation_added_total": 718,
+  "last_continuation_seconds": 301.66
 }
