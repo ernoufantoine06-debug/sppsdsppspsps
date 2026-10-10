@@ -1,0 +1,290 @@
+{
+  "n_bars": 42540,
+  "raw_valid_first_half": 21268,
+  "tested_thresholds": 828,
+  "strategies_validated": 0,
+  "best_by_condition": {
+    "LT": [
+      {
+        "trades": 1004,
+        "gross_mean_r": 0.23570717131474161,
+        "net_mean_r": 0.16070717131474171,
+        "max_drawdown_pct": 26.27286183276499,
+        "r2": 0.8550290132739058,
+        "block_counts": [
+          272,
+          44,
+          441,
+          247
+        ],
+        "block_net_mean_r": [
+          0.19110294117647258,
+          0.5028409090909126,
+          0.12688208616780086,
+          0.1266801619433188
+        ],
+        "ending_equity": 259989.79000000056,
+        "policy": "SL 20 pips; RR 1:10; durée 24 bougies",
+        "direction": "LONG ONLY",
+        "policy_index": 46,
+        "direction_index": 0,
+        "cond": "LT",
+        "lo_pct": 10,
+        "hi_pct": null,
+        "entry_threshold": "< Q10 (1.08640700)",
+        "events": 9135
+      },
+      {
+        "trades": 1054,
+        "gross_mean_r": 0.22199003795066505,
+        "net_mean_r": 0.14699003795066515,
+        "max_drawdown_pct": 26.18783742228497,
+        "r2": 0.8592475584877987,
+        "block_counts": [
+          288,
+          51,
+          462,
+          253
+        ],
+        "block_net_mean_r": [
+          0.21546006944444682,
+          0.4241176470588262,
+          0.10230519480519525,
+          0.09478260869565211
+        ],
+        "ending_equity": 253500.52000000098,
+        "policy": "SL 20 pips; RR 1:10; durée 24 bougies",
+        "direction": "LONG ONLY",
+        "policy_index": 46,
+        "direction_index": 0,
+        "cond": "LT",
+        "lo_pct": 11,
+        "hi_pct": null,
+        "entry_threshold": "< Q11 (1.08817000)",
+        "events": 9775
+      },
+      {
+        "trades": 1063,
+        "gross_mean_r": 0.20037629350893696,
+        "net_mean_r": 0.12537629350893717,
+        "max_drawdown_pct": 32.17432088881188,
+        "r2": 0.6203611102283166,
+        "block_counts": [
+          425,
+          134,
+          352,
+          152
+        ],
+        "block_net_mean_r": [
+          0.21911764705882372,
+          0.3205223880597016,
+          -0.012499999999999815,
+          0.010526315789473904
+        ],
+        "ending_equity": 229479.25,
+        "policy": "SL 20 pips; RR 1:10; durée sans limite",
+        "direction": "LONG ONLY",
+        "policy_index": 44,
+        "direction_index": 0,
+        "cond": "LT",
+        "lo_pct": 32,
+        "hi_pct": null,
+        "entry_threshold": "< Q32 (1.12067000)",
+        "events": 18080
+      }
+    ],
+    "GT": [
+      {
+        "trades": 1032,
+        "gross_mean_r": 0.21471861182970806,
+        "net_mean_r": 0.14293508369680966,
+        "max_drawdown_pct": 29.883360087367134,
+        "r2": 0.6703084168862602,
+        "block_counts": [
+          498,
+          231,
+          105,
+          198
+        ],
+        "block_net_mean_r": [
+          0.219708655826889,
+          0.017700619611796257,
+          0.36578197628943154,
+          -0.02223159023938589
+        ],
+        "ending_equity": 218984.93020200034,
+        "policy": "SL ATR14 (n−1); RR 1:8; durée sans limite",
+        "direction": "SHORT ONLY",
+        "policy_index": 104,
+        "direction_index": 1,
+        "cond": "GT",
+        "lo_pct": 40,
+        "hi_pct": null,
+        "entry_threshold": "> Q40 (1.12944800)",
+        "events": 22154
+      },
+      {
+        "trades": 1026,
+        "gross_mean_r": 0.21305029961818586,
+        "net_mean_r": 0.14138155564752658,
+        "max_drawdown_pct": 29.883360087367134,
+        "r2": 0.6577296434064166,
+        "block_counts": [
+          498,
+          226,
+          105,
+          197
+        ],
+        "block_net_mean_r": [
+          0.21970300209819643,
+          0.0025791578482828544,
+          0.36573247525904323,
+          -0.01695136307843161
+        ],
+        "ending_equity": 216205.1937310003,
+        "policy": "SL ATR14 (n−1); RR 1:8; durée sans limite",
+        "direction": "SHORT ONLY",
+        "policy_index": 104,
+        "direction_index": 1,
+        "cond": "GT",
+        "lo_pct": 41,
+        "hi_pct": null,
+        "entry_threshold": "> Q41 (1.13067470)",
+        "events": 21813
+      },
+      {
+        "trades": 1011,
+        "gross_mean_r": 0.21447576656775463,
+        "net_mean_r": 0.1394757665677548,
+        "max_drawdown_pct": 43.00581386278656,
+        "r2": 0.7099776655011587,
+        "block_counts": [
+          595,
+          204,
+          51,
+          161
+        ],
+        "block_net_mean_r": [
+          0.1821428571428573,
+          0.0034313725490198654,
+          0.8661764705882352,
+          -0.07602484472049721
+        ],
+        "ending_equity": 223648.9499999999,
+        "policy": "SL 20 pips; RR 1:10; durée sans limite",
+        "direction": "SHORT ONLY",
+        "policy_index": 44,
+        "direction_index": 1,
+        "cond": "GT",
+        "lo_pct": 44,
+        "hi_pct": null,
+        "entry_threshold": "> Q44 (1.13415000)",
+        "events": 20715
+      }
+    ],
+    "BETWEEN": [
+      {
+        "trades": 1426,
+        "gross_mean_r": 0.20044530154277695,
+        "net_mean_r": 0.12544530154277714,
+        "max_drawdown_pct": 35.78367631509259,
+        "r2": 0.6734920966252963,
+        "block_counts": [
+          776,
+          327,
+          110,
+          213
+        ],
+        "block_net_mean_r": [
+          0.11572164948453632,
+          0.0014525993883793397,
+          0.925,
+          -0.06169014084507051
+        ],
+        "ending_equity": 267002.5499999999,
+        "policy": "SL 20 pips; RR 1:10; durée sans limite",
+        "direction": "SHORT ONLY",
+        "policy_index": 44,
+        "direction_index": 1,
+        "cond": "BETWEEN",
+        "lo_pct": 15,
+        "hi_pct": 87,
+        "entry_threshold": "Q15–Q87 (1.09709000–1.34214740)",
+        "events": 27520
+      },
+      {
+        "trades": 1180,
+        "gross_mean_r": 0.1970520241988038,
+        "net_mean_r": 0.12397384424773789,
+        "max_drawdown_pct": 51.43792266674119,
+        "r2": 0.29043934471504895,
+        "block_counts": [
+          499,
+          319,
+          162,
+          200
+        ],
+        "block_net_mean_r": [
+          0.17317962701930778,
+          -0.15243528094482112,
+          0.546778261028751,
+          0.09960639332218195
+        ],
+        "ending_equity": 218780.21997900004,
+        "policy": "SL ATR14 (n−1); RR 1:10; durée sans limite",
+        "direction": "SHORT ONLY",
+        "policy_index": 108,
+        "direction_index": 1,
+        "cond": "BETWEEN",
+        "lo_pct": 11,
+        "hi_pct": 94,
+        "entry_threshold": "Q11–Q94 (1.08817000–1.36579000)",
+        "events": 31480
+      },
+      {
+        "trades": 1134,
+        "gross_mean_r": 0.19710880824919622,
+        "net_mean_r": 0.12366343657933225,
+        "max_drawdown_pct": 51.22328231271257,
+        "r2": 0.21285530977596076,
+        "block_counts": [
+          453,
+          319,
+          162,
+          200
+        ],
+        "block_net_mean_r": [
+          0.17739919371140542,
+          -0.15243528094482112,
+          0.546778261028751,
+          0.09960639332218195
+        ],
+        "ending_equity": 220896.513551,
+        "policy": "SL ATR14 (n−1); RR 1:10; durée sans limite",
+        "direction": "SHORT ONLY",
+        "policy_index": 108,
+        "direction_index": 1,
+        "cond": "BETWEEN",
+        "lo_pct": 11,
+        "hi_pct": 87,
+        "entry_threshold": "Q11–Q87 (1.08817000–1.34214740)",
+        "events": 29992
+      }
+    ]
+  },
+  "results_path": "/workspace/work/deliverables/RÉSULTATS INDICATEURS.xlsx",
+  "reject_path": "/workspace/work/deliverables/historique_rejets_ALMA-1.csv",
+  "date_recherche": "2026-10-10",
+  "instrument": "EUR/USD",
+  "timeframe": "2 h",
+  "indicator": "ALMA-1",
+  "source_period": "24/01/2013–30/09/2026",
+  "entry_signal": "moyenne ALMA-1 des lignes n, n-1 et n-2, à l’ouverture de n",
+  "percentiles": "percentiles calculés sur les valeurs brutes ALMA-1 valides de la première moitié des bougies; balayage Q10–Q90 par déciles puis affinage local à 1 point de percentile",
+  "exit_variants_per_signal_rule": 224,
+  "validation_blocks": "40% initial, puis trois blocs de 20%; minima indépendants 200 puis 70 par bloc; 1000 sur l’ensemble",
+  "cost_assumption": "spread 0.8 pip + commission 7 USD/lot appliqués une fois par trade; la commission est traitée comme un coût total aller-retour par lot",
+  "drawdown_method": "drawdown mesuré sur les soldes après clôture des trades",
+  "dataset_handling": "42540 lignes OHLC complètes utilisées; ligne finale d’indicateur sans OHLC ignorée",
+  "notes": "Aucun seuil validé. Le fichier historique séparé décrit les 828 seuils distincts et le meilleur résultat des 224 variantes direction/sortie pour chaque seuil."
+}
